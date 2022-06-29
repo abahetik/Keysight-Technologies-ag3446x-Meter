@@ -1,0 +1,525 @@
+[ag3446x_init]
+Class="Function"
+Prototype="long ag3446x_init(char *resourceName, unsigned short IDQuery, unsigned short resetDevice, unsigned long *newVi);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1041:19"
+
+[ag3446x_InitWithOptions]
+Class="Function"
+Prototype="long ag3446x_InitWithOptions(char *resourceName, unsigned short IDQuery, unsigned short resetDevice, const char *optionString, unsigned long *newVi);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1065:19"
+
+[ag3446x_close]
+Class="Function"
+Prototype="long ag3446x_close(unsigned long vi);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1119:19"
+
+[ag3446x_reset]
+Class="Function"
+Prototype="long ag3446x_reset(unsigned long vi);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1138:19"
+
+[ag3446x_ResetWithDefaults]
+Class="Function"
+Prototype="long ag3446x_ResetWithDefaults(unsigned long vi);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1167:19"
+
+[ag3446x_Disable]
+Class="Function"
+Prototype="long ag3446x_Disable(unsigned long vi);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1185:19"
+
+[ag3446x_self_test]
+Class="Function"
+Prototype="long ag3446x_self_test(unsigned long vi, short *testResult, char testMessage[]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1205:19"
+
+[ag3446x_revision_query]
+Class="Function"
+Prototype="long ag3446x_revision_query(unsigned long vi, char driverRev[], char instrRev[]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1246:19"
+
+[ag3446x_error_query]
+Class="Function"
+Prototype="long ag3446x_error_query(unsigned long vi, long *errCode, char errMessage[]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1274:19"
+
+[ag3446x_error_message]
+Class="Function"
+Prototype="long ag3446x_error_message(unsigned long vi, long errorCode, char errorMessage[256]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1315:19"
+
+[ag3446x_InvalidateAllAttributes]
+Class="Function"
+Prototype="long ag3446x_InvalidateAllAttributes(unsigned long vi);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1345:19"
+
+[ag3446x_GetError]
+Class="Function"
+Prototype="long ag3446x_GetError(unsigned long vi, long *errorCode, long bufferSize, char description[]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1356:19"
+
+[ag3446x_ClearError]
+Class="Function"
+Prototype="long ag3446x_ClearError(unsigned long vi);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1449:19"
+
+[ag3446x_GetNextCoercionRecord]
+Class="Function"
+Prototype="long ag3446x_GetNextCoercionRecord(unsigned long vi, long bufferSize, char record[]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1462:19"
+
+[ag3446x_GetNextInterchangeWarning]
+Class="Function"
+Prototype="long ag3446x_GetNextInterchangeWarning(unsigned long vi, long bufferSize, char warnString[]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1477:19"
+
+[ag3446x_ResetInterchangeCheck]
+Class="Function"
+Prototype="long ag3446x_ResetInterchangeCheck(unsigned long vi);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1484:19"
+
+[ag3446x_ClearInterchangeWarnings]
+Class="Function"
+Prototype="long ag3446x_ClearInterchangeWarnings(unsigned long vi);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1489:19"
+
+[ag3446x_LockSession]
+Class="Function"
+Prototype="long ag3446x_LockSession(unsigned long vi, unsigned short *callerHasLock);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1504:19"
+
+[ag3446x_UnlockSession]
+Class="Function"
+Prototype="long ag3446x_UnlockSession(unsigned long vi, unsigned short *callerHasLock);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1508:19"
+
+[ag3446x_ConfigureMeasurement]
+Class="Function"
+Prototype="long ag3446x_ConfigureMeasurement(unsigned long vi, long measFunction, double range, double resolution);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1520:19"
+
+[ag3446x_ConfigureSecondaryMeasurement]
+Class="Function"
+Prototype="long ag3446x_ConfigureSecondaryMeasurement(unsigned long vi, long secondaryFunction);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1551:19"
+
+[ag3446x_ConfigureACBandwidth]
+Class="Function"
+Prototype="long ag3446x_ConfigureACBandwidth(unsigned long vi, double minFreq, double maxFreq);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1576:19"
+
+[ag3446x_ConfigureFrequencyVoltageRange]
+Class="Function"
+Prototype="long ag3446x_ConfigureFrequencyVoltageRange(unsigned long vi, double freqVoltageRange);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1602:19"
+
+[ag3446x_ConfigureFrequencyTimeout]
+Class="Function"
+Prototype="long ag3446x_ConfigureFrequencyTimeout(unsigned long vi, unsigned short enableAutoTimeout);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1628:19"
+
+[ag3446x_ConfigureTransducerType]
+Class="Function"
+Prototype="long ag3446x_ConfigureTransducerType(unsigned long vi, long transducerType);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1652:19"
+
+[ag3446x_ConfigureRTD]
+Class="Function"
+Prototype="long ag3446x_ConfigureRTD(unsigned long vi, double alpha, double resistance);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1679:19"
+
+[ag3446x_ConfigureRTDAdvanced]
+Class="Function"
+Prototype="long ag3446x_ConfigureRTDAdvanced(unsigned long vi, unsigned short enablePowerLimit, unsigned short enableOffsetCompensation);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1707:19"
+
+[ag3446x_ConfigureThermistor]
+Class="Function"
+Prototype="long ag3446x_ConfigureThermistor(unsigned long vi, double resistance);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1734:19"
+
+[ag3446x_ConfigureThermocouple]
+Class="Function"
+Prototype="long ag3446x_ConfigureThermocouple(unsigned long vi, long thermocoupleType, long RefJunctionType);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1760:19"
+
+[ag3446x_ConfigureFixedRefJunction]
+Class="Function"
+Prototype="long ag3446x_ConfigureFixedRefJunction(unsigned long vi, double fixedRefJunction);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1789:19"
+
+[ag3446x_ConfigureThermocoupleCheckEnabled]
+Class="Function"
+Prototype="long ag3446x_ConfigureThermocoupleCheckEnabled(unsigned long vi, unsigned short enableTcCheck);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1815:19"
+
+[ag3446x_ConfigureRefJunctionOffsetAdjustment]
+Class="Function"
+Prototype="long ag3446x_ConfigureRefJunctionOffsetAdjustment(unsigned long vi, double adjustment);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1842:19"
+
+[ag3446x_ConfigureThermistorPowerLimit]
+Class="Function"
+Prototype="long ag3446x_ConfigureThermistorPowerLimit(unsigned long vi, unsigned short enablePowerLimit);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1867:19"
+
+[ag3446x_ConfigureTrigger]
+Class="Function"
+Prototype="long ag3446x_ConfigureTrigger(unsigned long vi, long triggerSource, double triggerDelay);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1890:19"
+
+[ag3446x_ConfigureMultiPoint]
+Class="Function"
+Prototype="long ag3446x_ConfigureMultiPoint(unsigned long vi, long triggerCount, long sampleCount, long sampleTrigger, double sampleInterval);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1918:19"
+
+[ag3446x_ConfigurePretrigger]
+Class="Function"
+Prototype="long ag3446x_ConfigurePretrigger(unsigned long vi, long preTriggerCount);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1958:19"
+
+[ag3446x_ConfigureMeasCompleteDest]
+Class="Function"
+Prototype="long ag3446x_ConfigureMeasCompleteDest(unsigned long vi, long measCompleteDest);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:1979:19"
+
+[ag3446x_ConfigureCalibrationSecurity]
+Class="Function"
+Prototype="long ag3446x_ConfigureCalibrationSecurity(unsigned long vi, char securityCode[], unsigned short enableSecurity);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2000:19"
+
+[ag3446x_Calibrate]
+Class="Function"
+Prototype="long ag3446x_Calibrate(unsigned long vi, double calibrationValue, char calibrationMessage[], unsigned short enableCalibrationStore, unsigned short *calibrationResult);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2033:19"
+
+[ag3446x_CalibrateADC]
+Class="Function"
+Prototype="long ag3446x_CalibrateADC(unsigned long vi, unsigned short *calibrationResult);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2079:19"
+
+[ag3446x_ConfigureTriggerSlope]
+Class="Function"
+Prototype="long ag3446x_ConfigureTriggerSlope(unsigned long vi, long polarity);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2114:19"
+
+[ag3446x_ConfigureTriggerLevel]
+Class="Function"
+Prototype="long ag3446x_ConfigureTriggerLevel(unsigned long vi, double triggerLevel);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2139:19"
+
+[ag3446x_ConfigureAutoZeroMode]
+Class="Function"
+Prototype="long ag3446x_ConfigureAutoZeroMode(unsigned long vi, long autoZeroMode);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2160:19"
+
+[ag3446x_ConfigureVoltageImpedance]
+Class="Function"
+Prototype="long ag3446x_ConfigureVoltageImpedance(unsigned long vi, unsigned short enableAutoImpedance);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2182:19"
+
+[ag3446x_ConfigureCurrentTerminals]
+Class="Function"
+Prototype="long ag3446x_ConfigureCurrentTerminals(unsigned long vi, long terminalValue);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2205:19"
+
+[ag3446x_ConfigureNullOperation]
+Class="Function"
+Prototype="long ag3446x_ConfigureNullOperation(unsigned long vi, unsigned short enableNullFunction, double nullValue, unsigned short enableAutoValue);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2228:19"
+
+[ag3446x_ConfigureMeasurementTriggerParameters]
+Class="Function"
+Prototype="long ag3446x_ConfigureMeasurementTriggerParameters(unsigned long vi, long type);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2262:19"
+
+[ag3446x_ConfigureSmoothing]
+Class="Function"
+Prototype="long ag3446x_ConfigureSmoothing(unsigned long vi, long numberOfMeasurements, unsigned short enableSmoothing);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2286:19"
+
+[ag3446x_ConfigureTrendChartEnabled]
+Class="Function"
+Prototype="long ag3446x_ConfigureTrendChartEnabled(unsigned long vi, unsigned short enableTrendChart);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2314:19"
+
+[ag3446x_ConfigureResistance]
+Class="Function"
+Prototype="long ag3446x_ConfigureResistance(unsigned long vi, unsigned short enablePowerLimit, unsigned short enableOffsetCompensation);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2337:19"
+
+[ag3446x_ConfigureRangeChangeMode]
+Class="Function"
+Prototype="long ag3446x_ConfigureRangeChangeMode(unsigned long vi, long rangeChangeMode);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2367:19"
+
+[ag3446x_ConfigureScale]
+Class="Function"
+Prototype="long ag3446x_ConfigureScale(unsigned long vi, double relativeValue, double referenceResistance, long scalingFunction, unsigned short autoReference, unsigned short enableScaling);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2389:19"
+
+[ag3446x_ConfigureScaleAdvanced]
+Class="Function"
+Prototype="long ag3446x_ConfigureScaleAdvanced(unsigned long vi, double gainValue, double offsetValue, double referenceValue);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2434:19"
+
+[ag3446x_ConfigureScaleUnit]
+Class="Function"
+Prototype="long ag3446x_ConfigureScaleUnit(unsigned long vi, unsigned short enableScaleUnit, char scaleUnit[]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2463:19"
+
+[ag3446x_ConfigureAverage]
+Class="Function"
+Prototype="long ag3446x_ConfigureAverage(unsigned long vi, unsigned short enableAverage);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2486:19"
+
+[ag3446x_ConfigureLimit]
+Class="Function"
+Prototype="long ag3446x_ConfigureLimit(unsigned long vi, double lowerLimit, double upperLimit, unsigned short enableLimit);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2509:19"
+
+[ag3446x_ConfigureHistogram]
+Class="Function"
+Prototype="long ag3446x_ConfigureHistogram(unsigned long vi, double lowerRange, double upperRange, unsigned short enableHistogram, unsigned short autoHistogramRange, long binCounts);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2561:19"
+
+[ag3446x_ConfigureReadingMemory]
+Class="Function"
+Prototype="long ag3446x_ConfigureReadingMemory(unsigned long vi, long measurementCounts);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2618:19"
+
+[ag3446x_QueryFileList]
+Class="Function"
+Prototype="long ag3446x_QueryFileList(unsigned long vi, long *memoryUsed, long *memoryFree, char fileListing[512]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2641:19"
+
+[ag3446x_ConfigureFile]
+Class="Function"
+Prototype="long ag3446x_ConfigureFile(unsigned long vi, long operation, char sourceFile[], char destinationFile[]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2670:19"
+
+[ag3446x_ConfigureDirectory]
+Class="Function"
+Prototype="long ag3446x_ConfigureDirectory(unsigned long vi, long operation, char folder[]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2705:19"
+
+[ag3446x_ValidateStateFile]
+Class="Function"
+Prototype="long ag3446x_ValidateStateFile(unsigned long vi, char stateFile[], unsigned short *isValid);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2738:19"
+
+[ag3446x_ConfigureDataTransitionFormat]
+Class="Function"
+Prototype="long ag3446x_ConfigureDataTransitionFormat(unsigned long vi, long separator, unsigned short enableReadingInfo, unsigned short enableRowLimit);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2768:19"
+
+[ag3446x_ConfigureDataTransition]
+Class="Function"
+Prototype="long ag3446x_ConfigureDataTransition(unsigned long vi, long operation, char fileName[], char binaryBlock[]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2797:19"
+
+[ag3446x_ConfigureStateFile]
+Class="Function"
+Prototype="long ag3446x_ConfigureStateFile(unsigned long vi, long operation, char fileName[], unsigned short enableAutoRecall);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2832:19"
+
+[ag3446x_ConfigurePreferenceFile]
+Class="Function"
+Prototype="long ag3446x_ConfigurePreferenceFile(unsigned long vi, long operation, char fileName[]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2871:19"
+
+[ag3446x_GetApertureTimeInfo]
+Class="Function"
+Prototype="long ag3446x_GetApertureTimeInfo(unsigned long vi, double *apertureTime, long *apertureTimeUnits);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2900:19"
+
+[ag3446x_ConfigureApertureTime]
+Class="Function"
+Prototype="long ag3446x_ConfigureApertureTime(unsigned long vi, long apertureTimeUnit, double apertureTime);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2930:19"
+
+[ag3446x_GetAutoRangeValue]
+Class="Function"
+Prototype="long ag3446x_GetAutoRangeValue(unsigned long vi, double *autoRangeValue);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2958:19"
+
+[ag3446x_Read]
+Class="Function"
+Prototype="long ag3446x_Read(unsigned long vi, long maxTime, double *reading);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:2979:19"
+
+[ag3446x_ReadMultiPoint]
+Class="Function"
+Prototype="long ag3446x_ReadMultiPoint(unsigned long vi, long maxTime, long arraySize, double readingArray[], long *actualPts);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3014:19"
+
+[ag3446x_ReadHistogramMeasurement]
+Class="Function"
+Prototype="long ag3446x_ReadHistogramMeasurement(unsigned long vi, char readings[1024]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3163:19"
+
+[ag3446x_ReadStatisticsMeasurement]
+Class="Function"
+Prototype="long ag3446x_ReadStatisticsMeasurement(unsigned long vi, double *standardDeviationValue, double *averageValue, double *countValue, double *maximumValue, double *minimumValue, double *peakToPeakValue);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3186:19"
+
+[ag3446x_FetchStatisticsMeasurement]
+Class="Function"
+Prototype="long ag3446x_FetchStatisticsMeasurement(unsigned long vi, double *standardDeviationValue, double *averageValue, double *countValue, double *maximumValue, double *minimumValue, double *peakToPeakValue);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3212:19"
+
+[ag3446x_FetchHistogramMeasurement]
+Class="Function"
+Prototype="long ag3446x_FetchHistogramMeasurement(unsigned long vi, char readings[1024]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3261:19"
+
+[ag3446x_Initiate]
+Class="Function"
+Prototype="long ag3446x_Initiate(unsigned long vi);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3300:19"
+
+[ag3446x_Abort]
+Class="Function"
+Prototype="long ag3446x_Abort(unsigned long vi);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3336:19"
+
+[ag3446x_SendSoftwareTrigger]
+Class="Function"
+Prototype="long ag3446x_SendSoftwareTrigger(unsigned long vi);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3360:19"
+
+[ag3446x_Fetch]
+Class="Function"
+Prototype="long ag3446x_Fetch(unsigned long vi, long maxTime, double *readingRef);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3403:19"
+
+[ag3446x_FetchMultiPoint]
+Class="Function"
+Prototype="long ag3446x_FetchMultiPoint(unsigned long vi, long maxTime, long arraySize, double readingArray[], long *actualPts);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3557:21"
+
+[ag3446x_IsOverRange]
+Class="Function"
+Prototype="long ag3446x_IsOverRange(unsigned long vi, double measurementValue, unsigned short *isOverRange);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3715:19"
+
+[ag3446x_ReadMeasurementMemory]
+Class="Function"
+Prototype="long ag3446x_ReadMeasurementMemory(unsigned long vi, long readCount, unsigned short enableWait, double result[]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3748:19"
+
+[ag3446x_ReadLastMeasurement]
+Class="Function"
+Prototype="long ag3446x_ReadLastMeasurement(unsigned long vi, double *lastResult);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3787:19"
+
+[ag3446x_ReadMeasurementCount]
+Class="Function"
+Prototype="long ag3446x_ReadMeasurementCount(unsigned long vi, long *dataPoints);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3808:19"
+
+[ag3446x_ReadSecondaryMeasurement]
+Class="Function"
+Prototype="long ag3446x_ReadSecondaryMeasurement(unsigned long vi, long numberOfReadings, double reading[3]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3837:19"
+
+[ag3446x_GetAttributeViInt32]
+Class="Function"
+Prototype="long ag3446x_GetAttributeViInt32(unsigned long vi, const char *channelName, unsigned long attributeId, long *value);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3879:19"
+
+[ag3446x_GetAttributeViReal64]
+Class="Function"
+Prototype="long ag3446x_GetAttributeViReal64(unsigned long vi, const char *channelName, unsigned long attributeId, double *value);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3885:19"
+
+[ag3446x_GetAttributeViString]
+Class="Function"
+Prototype="long ag3446x_GetAttributeViString(unsigned long vi, const char *channelName, unsigned long attributeId, long bufSize, char value[]);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3891:19"
+
+[ag3446x_GetAttributeViBoolean]
+Class="Function"
+Prototype="long ag3446x_GetAttributeViBoolean(unsigned long vi, const char *channelName, unsigned long attributeId, unsigned short *value);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3898:19"
+
+[ag3446x_GetAttributeViSession]
+Class="Function"
+Prototype="long ag3446x_GetAttributeViSession(unsigned long vi, const char *channelName, unsigned long attributeId, unsigned long *value);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3904:19"
+
+[ag3446x_SetAttributeViInt32]
+Class="Function"
+Prototype="long ag3446x_SetAttributeViInt32(unsigned long vi, const char *channelName, unsigned long attributeId, long value);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3919:19"
+
+[ag3446x_SetAttributeViReal64]
+Class="Function"
+Prototype="long ag3446x_SetAttributeViReal64(unsigned long vi, const char *channelName, unsigned long attributeId, double value);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3925:19"
+
+[ag3446x_SetAttributeViString]
+Class="Function"
+Prototype="long ag3446x_SetAttributeViString(unsigned long vi, const char *channelName, unsigned long attributeId, const char *value);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3931:19"
+
+[ag3446x_SetAttributeViBoolean]
+Class="Function"
+Prototype="long ag3446x_SetAttributeViBoolean(unsigned long vi, const char *channelName, unsigned long attributeId, unsigned short value);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3937:19"
+
+[ag3446x_SetAttributeViSession]
+Class="Function"
+Prototype="long ag3446x_SetAttributeViSession(unsigned long vi, const char *channelName, unsigned long attributeId, unsigned long value);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3943:19"
+
+[ag3446x_CheckAttributeViInt32]
+Class="Function"
+Prototype="long ag3446x_CheckAttributeViInt32(unsigned long vi, const char *channelName, unsigned long attributeId, long value);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3960:19"
+
+[ag3446x_CheckAttributeViReal64]
+Class="Function"
+Prototype="long ag3446x_CheckAttributeViReal64(unsigned long vi, const char *channelName, unsigned long attributeId, double value);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3966:19"
+
+[ag3446x_CheckAttributeViString]
+Class="Function"
+Prototype="long ag3446x_CheckAttributeViString(unsigned long vi, const char *channelName, unsigned long attributeId, const char *value);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3972:19"
+
+[ag3446x_CheckAttributeViBoolean]
+Class="Function"
+Prototype="long ag3446x_CheckAttributeViBoolean(unsigned long vi, const char *channelName, unsigned long attributeId, unsigned short value);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3978:19"
+
+[ag3446x_CheckAttributeViSession]
+Class="Function"
+Prototype="long ag3446x_CheckAttributeViSession(unsigned long vi, const char *channelName, unsigned long attributeId, unsigned long value);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:3984:19"
+
+[ag3446x_viWrite]
+Class="Function"
+Prototype="long ag3446x_viWrite(unsigned long vi, unsigned char buffer[], long long count, long long *returnCount);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:4004:19"
+
+[ag3446x_viRead]
+Class="Function"
+Prototype="long ag3446x_viRead(unsigned long vi, long long bufferSize, unsigned char buffer[], long long *returnCount);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:4008:19"
+
+[ag3446x_WriteInstrData]
+Class="Function"
+Prototype="long ag3446x_WriteInstrData(unsigned long vi, const char *writeBuffer);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:4025:19"
+
+[ag3446x_ReadInstrData]
+Class="Function"
+Prototype="long ag3446x_ReadInstrData(unsigned long vi, long numBytes, char rdBuf[], long *bytesRead);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:4029:19"
+
+[ag3446x_ClearCalculateData]
+Class="Function"
+Prototype="long ag3446x_ClearCalculateData(unsigned long vi, long clearOperation);"
+SourceLocation="d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c:4348:19"
+

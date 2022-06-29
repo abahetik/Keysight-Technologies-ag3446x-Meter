@@ -1,0 +1,69 @@
+<IviConfigStore xmlns:dt="urn:schemas-microsoft-com:datatypes">
+	<Name>IVI Configuration Server</Name>
+	<Description>The IVI Configuration Server allows access to and modification of an IVI configuration store</Description>
+	<Vendor>IVI Foundation, Inc</Vendor>
+	<Revision>1.7.0.12115</Revision>
+	<SpecificationMajorVersion>1</SpecificationMajorVersion>
+	<SpecificationMinorVersion>7</SpecificationMinorVersion>
+	<MasterLocation>C:\ProgramData\IVI Foundation\IVI\IviConfigurationStore.xml</MasterLocation>
+	<ProcessDefaultLocation>D:\Perforce\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\dev\config\ag3446x.xml</ProcessDefaultLocation>
+	<ActualLocation>D:\Perforce\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\dev\config\ag3446x.xml</ActualLocation>
+	<PublishedAPIs>
+		<IviPublishedAPI id="p1">
+			<Name>IviDmm</Name>
+			<MajorVersion>3</MajorVersion>
+			<MinorVersion>0</MinorVersion>
+			<Type>IVI-C</Type>
+		</IviPublishedAPI>
+		<IviPublishedAPI id="p2">
+			<Name>IviDmm</Name>
+			<MajorVersion>4</MajorVersion>
+			<MinorVersion>1</MinorVersion>
+			<Type>IVI-C</Type>
+		</IviPublishedAPI>
+		<IviPublishedAPI id="p3">
+			<Name>IviDriver</Name>
+			<MajorVersion>1</MajorVersion>
+			<MinorVersion>0</MinorVersion>
+			<Type>IVI-C</Type>
+		</IviPublishedAPI>
+	</PublishedAPIs>
+	<SoftwareModules>
+		<IviSoftwareModule id="p4">
+			<Name>ag3446x</Name>
+			<Description>Agilent 3446X Series Digital Multimeter</Description>
+			<DataComponents/>
+			<ModulePath>ag3446x_32.dll</ModulePath>
+			<Prefix>ag3446x</Prefix>
+			<ProgID/>
+			<SupportedInstrumentModels>34460A,34461A,34465A,34470A,EDU34450A</SupportedInstrumentModels>
+			<PhysicalNames/>
+			<PublishedAPIs>
+				<IviPublishedAPI idref="p2"/>
+				<IviPublishedAPI idref="p3"/>
+			</PublishedAPIs>
+			<AssemblyQualifiedClassName/>
+			<ModulePath64>ag3446x_64.dll</ModulePath64>
+		</IviSoftwareModule>
+	</SoftwareModules>
+	<HardwareAssets/>
+	<DriverSessions>
+		<IviDriverSession id="p5">
+			<Name>ag3446x</Name>
+			<Description>Agilent 3446X Series Digital Multimeter</Description>
+			<DataComponents/>
+			<IviSoftwareModuleRef idref="p4"/>
+			<VirtualNames/>
+			<SoftwareModuleName>ag3446x</SoftwareModuleName>
+			<Cache>1</Cache>
+			<DriverSetup/>
+			<InterchangeCheck>0</InterchangeCheck>
+			<QueryInstrStatus>0</QueryInstrStatus>
+			<RangeCheck>1</RangeCheck>
+			<RecordCoercions>0</RecordCoercions>
+			<Simulate>1</Simulate>
+		</IviDriverSession>
+	</DriverSessions>
+	<Sessions/>
+	<LogicalNames/>
+</IviConfigStore>
