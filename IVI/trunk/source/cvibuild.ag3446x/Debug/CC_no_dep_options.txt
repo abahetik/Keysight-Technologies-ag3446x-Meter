@@ -1,1 +1,0 @@
--force-include-file "ag3446x.c";"d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.c" -force-include-file "ag3446x.h";"d:\perforce\per\InstrumentDriver\Drivers\IVI\Certified\DMM\ag3446x\trunk\source\ag3446x.h" 
