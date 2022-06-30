@@ -17,10 +17,10 @@
 
 | Application Development Environment | Minimum Software Required | Driver Link |
 | ----------------------------------- | ------------------------- | ----------- |
-|LabVIEW 2013|	 NI-VISA 5.0	|Link here|
-|LabVIEW 2018|	 NI-VISA 5.0	|Link here|
-|LabVIEW 2019|	 NI-VISA 5.0	|Link here|
-|LabVIEW 2020|	 NI-VISA 5.0	|Link here|
+|LabVIEW 2013|	 NI-VISA 5.0	|[Link here](https://github.com/abahetik/Keysight-Technologies-ag3446x-Meter/archive/refs/tags/LabVIEW-v.2013.zip)|
+|LabVIEW 2018|	 NI-VISA 5.0	|[Link here](https://github.com/abahetik/Keysight-Technologies-ag3446x-Meter/archive/refs/tags/v2018.zip)|
+|LabVIEW 2019|	 NI-VISA 5.0	|[Link here](https://github.com/abahetik/Keysight-Technologies-ag3446x-Meter/releases/download/v2019/Agilent.3446X.Series.zip)|
+|LabVIEW 2020|	 NI-VISA 5.0	|[Link here](https://github.com/abahetik/Keysight-Technologies-ag3446x-Meter/releases/download/v2020/Agilent.3446X.Series.zip)|
 |LabVIEW 2021|	 NI-VISA 5.0	|Link here|
 |LabVIEW NXG 2.0|	 NI-VISA 5.0  |Link here|
 
