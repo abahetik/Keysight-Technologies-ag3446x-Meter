@@ -1,26 +1,35 @@
-# Agilent Technologies / Keysight Technologies 34460A
+# Agilent 3446X Series Meter
+## Certified LabVIEW Plug and Play (project-style) Instrument Driver
 
-| Model Specifications    |     |                                              |
-| ----------------------- | --- | -------------------------------------------- |
-| **Manufacturer(s)**     | :   | Agilent Technologies / Keysight Technologies |
-| **Instrument Model**    | :   | 34460A                                       |
-| **Description**         | :   | Digital Multimeter                           |
-| I**nstrument Family**   | :   | 3446X Series                                 |
-| **Instrument Type(s)**  | :   | Meter                                        |
-| **Application Area(s)** | :   | Test and Measurement                         |
+| Driver Specifications |     |  |
+| --------------------- | --- |--|
+| **Manufacturer(s)**       | :   | Agilent Technologies / Keysight Technologies |
+|**Interface(s)**|:  |USB, Ethernet, IEEE 488.2 (GPIB)|
+|**Instrument Type(s)**|: |Meter|
+|**Driver Version**|: |1.2|
+|**Original Release Date**|: |17-JUN-2013|
+|**Update Release Date**|: |17-AUG-2021|
+|**Models Tested**|: |34461A, EDU34450A, 34470A|
+|**NI Certified**|: |Yes|
+|**NI Supported**|: |Yes|
 
-## Drivers Available For This Instrument Model
+## Download Driver and Related Software
 
-| ADE     | Driver Type                   | Interfaces                                                                  | Options | NI certified | Rating | Driver Page       |
-| ------- | ----------------------------- | --------------------------------------------------------------------------- | ------- | ------------ | ------ | ----------------- |
-| LabVIEW | Plug and Play (project-style) | IEEE 488.2 (GPIB) , USB , Ethernet                                          | None    | Yes          | 3.43   |<ul><li>[LabVIEW 2013](https://github.com/abahetik/Keysight-Technologies-ag3446x-Meter/archive/refs/tags/LabVIEW-v.2013.zip)</li><li>[LabVIEW 2018]()</li><li>[LabVIEW 2019]()</li><li>[LabVIEW 2020]()</li></ul> |
-| LabVIEW | LabWindows/CVI                | Measurement Studio for Visual Studio	IVI	IEEE 488.2 (GPIB) , USB , Ethernet | None    | Yes          | 4.43   | Go To Driver Page |
+| Application Development Environment | Minimum Software Required | Driver Link |
+| ----------------------------------- | ------------------------- | ----------- |
+|LabVIEW 2013|	 NI-VISA 5.0	|Link here|
+|LabVIEW 2018|	 NI-VISA 5.0	|Link here|
+|LabVIEW 2019|	 NI-VISA 5.0	|Link here|
+|LabVIEW 2020|	 NI-VISA 5.0	|Link here|
+|LabVIEW 2021|	 NI-VISA 5.0	|Link here|
+|LabVIEW NXG 2.0|	 NI-VISA 5.0  |Link here|
 
-**Where's my Application Development Environment (ADE)?**
+## Models Supported by this Driver
 
-If you cannot find an instrument driver that supports your Application Development Environment (ADE), use an instrument driver converter:
-
-The LabVIEW Instrument Driver Import Wizard allows you to convert an instrument driver from LabWindows/CVI (C source) to a LabVIEW wrapper (DLL).
-The LabVIEW Instrument Driver Export Wizard allows you to convert a LabVIEW (8.x) project-style instrument driver to a C wrapper (DLL).
-
-**Feedback**
+| Models | Tested | Description |
+| ------ | ------ | ----------- |
+|34460A|		  |Digital Multimeter|
+|34461A|	Yes	|Digital Multimeter|
+|34465A|		|Digital Multimeter|
+|34470A|	Yes	|Digital Multimeter|
+|EDU34450A|	Yes	|Digital Multimeter|
