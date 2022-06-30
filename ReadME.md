@@ -22,7 +22,7 @@
 |LabVIEW 2019|	 NI-VISA 5.0	|[Link here](https://github.com/abahetik/Keysight-Technologies-ag3446x-Meter/releases/download/v2019/Agilent.3446X.Series.zip)|
 |LabVIEW 2020|	 NI-VISA 5.0	|[Link here](https://github.com/abahetik/Keysight-Technologies-ag3446x-Meter/releases/download/v2020/Agilent.3446X.Series.zip)|
 |LabVIEW 2021|	 NI-VISA 5.0	|Link here|
-|LabVIEW NXG 2.0|	 NI-VISA 5.0  |[Link here](/nipkg://store/2/install-item/idnet-agit3446xseries_20.0)|
+|LabVIEW NXG 2.0|	 NI-VISA 5.0  |[Link here](nipkg://store/2/install-item/idnet-agit3446xseries_20.0)|
 
 ## Models Supported by this Driver
 
