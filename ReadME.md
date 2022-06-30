@@ -1,26 +1,41 @@
-# Agilent Technologies / Keysight Technologies 34460A
+# Agilent Technologies / Keysight Technologies ag3446x Meter
 
-| Model Specifications    |     |                                              |
+## Certified Multi-Environment IVI Instrument Driver
+
+| Driver Specifications   |     |                                              |
 | ----------------------- | --- | -------------------------------------------- |
-| **Manufacturer(s)**     | :   | Agilent Technologies / Keysight Technologies |
-| **Instrument Model**    | :   | 34460A                                       |
-| **Description**         | :   | Digital Multimeter                           |
-| I**nstrument Family**   | :   | 3446X Series                                 |
-| **Instrument Type(s)**  | :   | Meter                                        |
-| **Application Area(s)** | :   | Test and Measurement                         |
+| **Manufacturer(s)**     | :   | Agilent Technologies / Keysight Technologies|
+| **Interface(s)** |: |USB, Ethernet, IEEE 488.2 (GPIB) |
+|**Instrument Type(s)**|: |Meter|
+| **Instrument Model**    | :   | 34460A |
+| **Driver Version**| : | 2.5 |
+| **Original Relase Date** | : | 18-Jul-2013 |
+| **Update Release Date** | : | 01-Sep-2021 |
+| **IVI Generation** | : | IVI-2014 |
+| **IVI Class Specification** | : | IviDmm 4.0 |
+| **Extension Supported** | : | Multipoint, DeviceInfo, Base, ResistanceTemperatureDevice, TriggerSlope, Thermistor, SoftwareTrigger, AutoZero, TemperatureMeasurement, AutorangeValue, ACMeasurement, FrequencyMeasurement |
+| **Source Code Available** | : | Available |
+| **Models Tested** | : | 34461A, 34470A |
+| Other Supported Models | : | See Below |
+| **NI Certified?** | : | Yes |
+| **NI Supported?** | : | Yes |
+| **Driver Ratings** | : |  7 Ratings | 4.43 out of 5 |
 
-## Drivers Available For This Instrument Model
+## Download Driver and Related Software
+Use the chart below to download the right driver for your ADE. To download the required software, visit  Drivers and Updates.
 
-| ADE     | Driver Type                   | Interfaces                                                                  | Options | NI certified | Rating | Driver Page       |
-| ------- | ----------------------------- | --------------------------------------------------------------------------- | ------- | ------------ | ------ | ----------------- |
-| LabVIEW | Plug and Play (project-style) | IEEE 488.2 (GPIB) , USB , Ethernet                                          | None    | Yes          | 3.43   |<ul><li>[LabVIEW 2013](https://github.com/abahetik/Keysight-Technologies-ag3446x-Meter/archive/refs/tags/LabVIEW-v.2013.zip)</li><li>[LabVIEW 2018]()</li><li>[LabVIEW 2019]()</li><li>[LabVIEW 2020]()</li></ul> |
-| LabVIEW | LabWindows/CVI                | Measurement Studio for Visual Studio	IVI	IEEE 488.2 (GPIB) , USB , Ethernet | None    | Yes          | 4.43   | Go To Driver Page |
+| Applicaion Development Environment | Minimum Software Required | |
+| -- | -- | -- |
+| LabWindows/CVI 8.5 |  IVI Compliance Package 4.6.1 NI-VISA 5.4 | Download Link |
+| LabVIEW 2018 | IVI Compliance Package 4.6.1 NI-VISA 5.4 | Download link |
+| LabVIEW NXG 2.0 | IVI Compliance Package 4.6.1 NI-VISA 5.4 | Download link |
 
-**Where's my Application Development Environment (ADE)?**
+## Models Supported By Driver
 
-If you cannot find an instrument driver that supports your Application Development Environment (ADE), use an instrument driver converter:
-
-The LabVIEW Instrument Driver Import Wizard allows you to convert an instrument driver from LabWindows/CVI (C source) to a LabVIEW wrapper (DLL).
-The LabVIEW Instrument Driver Export Wizard allows you to convert a LabVIEW (8.x) project-style instrument driver to a C wrapper (DLL).
-
-**Feedback**
+| Models | Tested? | Description |
+| -- | -- | -- |
+| 34460A | | Digital Multimeter |
+| 34461A | Yes | Digital Multimeter|
+| 34465A | | Digital Multimeter |
+| 34470A | Yes | Digital Multimeter |
+| EDU34450A | | Digital Multimeter |
